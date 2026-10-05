@@ -1,6 +1,6 @@
 export const runtime = "nodejs";
 
-const MODEL = "gemini-2.5-flash";
+const MODEL = "gemini-3.8-flash";
 
 function cleanJson(text="") {
   const m = text.match(/\{[\s\S]*\}/);
